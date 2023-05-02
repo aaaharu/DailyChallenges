@@ -133,9 +133,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="HpH-Q0-M0w" kind="presentation" id="o0f-Il-BPy"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -158,17 +155,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2Vp-5v-WRX">
-                                <rect key="frame" x="20" y="372" width="309.66666666666669" height="208.66666666666663"/>
+                                <rect key="frame" x="20" y="372" width="353" height="208.66666666666663"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="p3B-Kx-Xa4">
-                                        <rect key="frame" x="0.0" y="0.0" width="90" height="208.66666666666666"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="208.66666666666666"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="SNs-NJ-Nd3">
-                                                <rect key="frame" x="0.0" y="0.0" width="90" height="150"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="150"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J88-mv-nQR">
-                                                <rect key="frame" x="0.0" y="168" width="90" height="40.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="168" width="104.33333333333333" height="40.666666666666657"/>
                                                 <string key="text">the Black
 Edition3</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -178,14 +175,14 @@ Edition3</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="KJE-Rm-eyJ">
-                                        <rect key="frame" x="110" y="0.0" width="90" height="208.66666666666666"/>
+                                        <rect key="frame" x="124.33333333333334" y="0.0" width="104.33333333333334" height="208.66666666666666"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="sdF-62-2wI">
-                                                <rect key="frame" x="0.0" y="0.0" width="90" height="150"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="150"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92P-q8-dSu">
-                                                <rect key="frame" x="0.0" y="168" width="90" height="40.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="168" width="104.33333333333333" height="40.666666666666657"/>
                                                 <string key="text">the Black
 Edition3</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -195,14 +192,14 @@ Edition3</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="JwI-3p-Cm8">
-                                        <rect key="frame" x="219.99999999999997" y="0.0" width="89.666666666666657" height="208.66666666666666"/>
+                                        <rect key="frame" x="248.66666666666671" y="0.0" width="104.33333333333334" height="208.66666666666666"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="rC5-ov-vx1">
-                                                <rect key="frame" x="0.0" y="0.0" width="89.666666666666671" height="150"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="150"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SxW-pm-YiY">
-                                                <rect key="frame" x="0.0" y="168" width="89.666666666666671" height="40.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="168" width="104.33333333333333" height="40.666666666666657"/>
                                                 <string key="text">the Black
 Edition3</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -214,17 +211,17 @@ Edition3</string>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Phi-Of-m5c">
-                                <rect key="frame" x="20" y="619" width="309.66666666666669" height="208.66666666666663"/>
+                                <rect key="frame" x="20" y="619" width="353" height="208.66666666666663"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="2Hc-pM-dnw">
-                                        <rect key="frame" x="0.0" y="0.0" width="90" height="208.66666666666666"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="208.66666666666666"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="YBf-IG-iCm">
-                                                <rect key="frame" x="0.0" y="0.0" width="90" height="150"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="170.33333333333334"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wiu-cv-MTs">
-                                                <rect key="frame" x="0.0" y="168" width="90" height="40.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="188.33333333333337" width="104.33333333333333" height="20.333333333333343"/>
                                                 <string key="text">the Black
 Edition3</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -234,14 +231,14 @@ Edition3</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="7F7-Z0-jcA">
-                                        <rect key="frame" x="110" y="0.0" width="90" height="208.66666666666666"/>
+                                        <rect key="frame" x="124.33333333333334" y="0.0" width="104.33333333333334" height="208.66666666666666"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="qug-rz-gDX">
-                                                <rect key="frame" x="0.0" y="0.0" width="90" height="150"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="170.33333333333334"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Si-DX-D9g">
-                                                <rect key="frame" x="0.0" y="168" width="90" height="40.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="188.33333333333337" width="104.33333333333333" height="20.333333333333343"/>
                                                 <string key="text">the Black
 Edition3</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -251,14 +248,14 @@ Edition3</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="EI9-Vk-MgG">
-                                        <rect key="frame" x="219.99999999999997" y="0.0" width="89.666666666666657" height="208.66666666666666"/>
+                                        <rect key="frame" x="248.66666666666671" y="0.0" width="104.33333333333334" height="208.66666666666666"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="UGD-u0-5jH">
-                                                <rect key="frame" x="0.0" y="0.0" width="89.666666666666671" height="150"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="170.33333333333334"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpb-md-pdA">
-                                                <rect key="frame" x="0.0" y="168" width="89.666666666666671" height="40.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="188.33333333333337" width="104.33333333333333" height="20.333333333333343"/>
                                                 <string key="text">the Black
 Edition3</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -280,7 +277,6 @@ Edition3</string>
                             <constraint firstItem="fwT-gP-0cc" firstAttribute="top" secondItem="RU2-FK-0na" secondAttribute="bottom" constant="8" symbolic="YES" id="6hW-Mq-3Lf"/>
                             <constraint firstItem="mAS-4u-PCK" firstAttribute="leading" secondItem="fwT-gP-0cc" secondAttribute="leading" id="7qI-c6-Scl"/>
                             <constraint firstItem="2Vp-5v-WRX" firstAttribute="top" secondItem="mAS-4u-PCK" secondAttribute="bottom" constant="20" id="9RK-X7-qKD"/>
-                            <constraint firstItem="2Vp-5v-WRX" firstAttribute="trailing" secondItem="hJD-lf-1jl" secondAttribute="trailing" id="9c0-bb-ZRP"/>
                             <constraint firstItem="vXE-Ux-lUm" firstAttribute="leading" secondItem="LQJ-j7-Bn8" secondAttribute="leading" constant="20" id="9mx-XT-Y2i"/>
                             <constraint firstItem="qKd-4R-Oy9" firstAttribute="top" secondItem="LQJ-j7-Bn8" secondAttribute="top" id="Ao9-23-I0d"/>
                             <constraint firstItem="mAS-4u-PCK" firstAttribute="top" secondItem="fwT-gP-0cc" secondAttribute="bottom" constant="30" id="Cw0-uf-B8a"/>
@@ -295,6 +291,7 @@ Edition3</string>
                             <constraint firstItem="LQJ-j7-Bn8" firstAttribute="trailing" secondItem="vXE-Ux-lUm" secondAttribute="trailing" constant="20" id="beG-PC-tcU"/>
                             <constraint firstItem="vXE-Ux-lUm" firstAttribute="top" secondItem="LQJ-j7-Bn8" secondAttribute="top" id="fHx-rj-jeW"/>
                             <constraint firstItem="Phi-Of-m5c" firstAttribute="top" secondItem="2Vp-5v-WRX" secondAttribute="bottom" constant="38.333333333333371" id="hla-dD-4rc"/>
+                            <constraint firstItem="2Vp-5v-WRX" firstAttribute="trailing" secondItem="7KD-TM-9Cu" secondAttribute="trailing" id="o0k-Cz-D87"/>
                             <constraint firstItem="LQJ-j7-Bn8" firstAttribute="trailing" secondItem="mAS-4u-PCK" secondAttribute="trailing" constant="10" id="pgb-a2-xM1"/>
                             <constraint firstItem="RU2-FK-0na" firstAttribute="top" secondItem="iuB-6d-fTq" secondAttribute="bottom" constant="24" id="r4o-BA-ta2"/>
                         </constraints>
@@ -307,19 +304,25 @@ Edition3</string>
                     <connections>
                         <outlet property="allBtn" destination="iuB-6d-fTq" id="bTq-Nx-FJt"/>
                         <outlet property="blackBtn" destination="5qc-XT-aap" id="UBu-mf-0Ai"/>
+                        <outlet property="downbut" destination="7KD-TM-9Cu" id="0OD-m1-1N9"/>
                         <outlet property="mBtn" destination="Lcb-zE-MbL" id="9bP-J0-SAY"/>
                         <outlet property="premiumBtn" destination="pbz-Bq-jry" id="hJ4-8E-wQV"/>
                         <outlet property="xBtn" destination="hJD-lf-1jl" id="IHb-C1-EhE"/>
+                        <segue destination="HGj-ry-kRv" kind="unwind" unwindAction="backToSecondVCWithUnwindSegue:" id="os3-aq-fMe"/>
+                        <segue destination="HpH-Q0-M0w" kind="push" identifier="NavToToggleVC" id="5ET-1y-bnA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1lt-8U-jUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="HGj-ry-kRv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="249.61832061068702" y="-56.338028169014088"/>
         </scene>
         <!--ToggleViewController-->
         <scene sceneID="pae-fb-k7g">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="ToggleViewController" referencedIdentifier="ToggleViewController" id="HpH-Q0-M0w" userLabel="ToggleViewController" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="ToggleViewController" storyboardName="ToggleViewController" referencedIdentifier="ToggleViewController" id="HpH-Q0-M0w" userLabel="ToggleViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DUB-P8-n7B"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRa-m9-1Wm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="778" y="-268"/>

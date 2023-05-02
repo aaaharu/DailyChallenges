@@ -19,19 +19,34 @@ class ViewController: CustomViewController {
     @IBOutlet weak var xBtn: UIButton!
     
  
+    @IBOutlet weak var downbut: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupUI()
+        downbut.addTarget(self, action: #selector(downButClicked(_:)), for: .touchUpInside)
  
     }
-    
+     
     fileprivate func setupUI() {
         btnTagSet()
-    }
+      
+            
+            }
 
+        
+  
+    // 돌아갈 화면에 코드 만들어놓기
+    @IBAction func backToSecondVC(unwindSegue: UIStoryboardSegue) {
+            
+        }
+
+    @objc func downButClicked(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "NavToToggleVC", sender: self)
+    }
+    
 
     @IBAction func btnClicked(_ sender: UIButton) {
         print("Clicked button tag: \(sender.tag)")

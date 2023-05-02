@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -23,7 +24,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="32"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAg-3z-3PF">
-                                                <rect key="frame" x="0.0" y="0.0" width="41.666666666666664" height="32"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="37.333333333333336" height="32"/>
                                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -34,12 +35,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="btnClicked:" destination="SnB-op-WB4" eventType="touchUpInside" id="RTA-WR-ihB"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPo-PB-4VF">
-                                                <rect key="frame" x="47.666666666666671" y="0.0" width="90.000000000000014" height="32"/>
+                                                <rect key="frame" x="43.333333333333336" y="0.0" width="80.333333333333314" height="32"/>
                                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -50,12 +48,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="btnClicked:" destination="SnB-op-WB4" eventType="touchUpInside" id="CZZ-6W-5rn"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQc-pi-79w">
-                                                <rect key="frame" x="143.66666666666666" y="0.0" width="105" height="32"/>
+                                                <rect key="frame" x="129.66666666666666" y="0.0" width="94.333333333333343" height="32"/>
                                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -66,12 +61,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="btnClicked:" destination="SnB-op-WB4" eventType="touchUpInside" id="vTl-wh-DxT"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRk-Je-kBt">
-                                                <rect key="frame" x="254.66666666666666" y="0.0" width="41.666666666666657" height="32"/>
+                                                <rect key="frame" x="230" y="0.0" width="37.333333333333314" height="32"/>
                                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -82,12 +74,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="btnClicked:" destination="SnB-op-WB4" eventType="touchUpInside" id="bEg-gn-mL7"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ca-17-mbg">
-                                                <rect key="frame" x="302.33333333333331" y="0.0" width="50.666666666666686" height="32"/>
+                                                <rect key="frame" x="273.33333333333331" y="0.0" width="37" height="32"/>
                                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -98,66 +87,25 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xct-1U-UIN">
+                                                <rect key="frame" x="316.33333333333331" y="0.0" width="36.666666666666686" height="32"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                <color key="tintColor" systemColor="systemGrayColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" systemColor="systemGrayColor"/>
+                                                    <color key="titleShadowColor" systemColor="systemGrayColor"/>
+                                                    <imageReference key="image" image="chevron.up" catalog="system" symbolScale="large"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btnClicked:" destination="SnB-op-WB4" eventType="touchUpInside" id="8yv-xr-NXG"/>
+                                                    <segue destination="PX8-Hh-zU3" kind="unwind" unwindAction="backToSecondVCWithUnwindSegue:" id="eiH-VO-mHQ"/>
                                                 </connections>
                                             </button>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="OQW-Wb-kA5">
-                                <rect key="frame" x="20" y="619" width="353" height="208.66666666666663"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Bc7-0S-Tkk">
-                                        <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="208.66666666666666"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tqc-aL-1D3">
-                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="150"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLj-zg-D5j">
-                                                <rect key="frame" x="0.0" y="168" width="104.33333333333333" height="40.666666666666657"/>
-                                                <string key="text">the Black
-Edition3</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="694-5G-sVX">
-                                        <rect key="frame" x="124.33333333333334" y="0.0" width="104.33333333333334" height="208.66666666666666"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ptT-HK-DGx">
-                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="150"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdL-Ru-d5x">
-                                                <rect key="frame" x="0.0" y="168" width="104.33333333333333" height="40.666666666666657"/>
-                                                <string key="text">the Black
-Edition3</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="flq-lB-QHb">
-                                        <rect key="frame" x="248.66666666666666" y="0.0" width="104.33333333333334" height="208.66666666666666"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bDq-eJ-pdW">
-                                                <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="150"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPg-Sw-SPn">
-                                                <rect key="frame" x="0.0" y="168" width="104.33333333333333" height="40.666666666666657"/>
-                                                <string key="text">the Black
-Edition3</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -168,7 +116,6 @@ Edition3</string>
                         <constraints>
                             <constraint firstItem="l3c-bp-VYH" firstAttribute="centerX" secondItem="kuj-Dz-DzM" secondAttribute="centerX" id="d6g-ga-zv5"/>
                             <constraint firstItem="l3c-bp-VYH" firstAttribute="top" secondItem="kuj-Dz-DzM" secondAttribute="top" id="gAH-ab-Ysu"/>
-                            <constraint firstItem="OQW-Wb-kA5" firstAttribute="bottom" secondItem="kuj-Dz-DzM" secondAttribute="bottom" constant="9.6666666666666288" id="jZv-ee-ugq"/>
                             <constraint firstItem="QjJ-m4-1HB" firstAttribute="top" secondItem="kuj-Dz-DzM" secondAttribute="top" id="nH9-CT-MSJ"/>
                             <constraint firstItem="l3c-bp-VYH" firstAttribute="leading" secondItem="kuj-Dz-DzM" secondAttribute="leading" constant="20" id="qdM-4a-lOY"/>
                             <constraint firstItem="kuj-Dz-DzM" firstAttribute="trailing" secondItem="l3c-bp-VYH" secondAttribute="trailing" constant="20" id="ta8-UK-U8S"/>
@@ -180,21 +127,16 @@ Edition3</string>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="allBtn" destination="uAg-3z-3PF" id="vzy-pD-3rh"/>
-                        <outlet property="blackBtn" destination="bQc-pi-79w" id="Gqz-B9-bdG"/>
-                        <outlet property="mBtn" destination="hRk-Je-kBt" id="JON-cA-gin"/>
-                        <outlet property="premiumBtn" destination="cPo-PB-4VF" id="Zbj-l5-b8A"/>
-                        <outlet property="xBtn" destination="1ca-17-mbg" id="ijg-MQ-xqq"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2f4-N7-Fm6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="PX8-Hh-zU3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="249.61832061068702" y="-56.338028169014088"/>
         </scene>
     </scenes>
     <resources>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <image name="chevron.up" catalog="system" width="128" height="70"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

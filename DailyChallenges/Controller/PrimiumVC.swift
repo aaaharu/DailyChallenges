@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PrimiumVC.swift
 //  DailyChallenges
 //
 //  Created by 김은지 on 2023/05/02.
@@ -7,8 +7,19 @@
 
 import UIKit
 
-class ViewController: CustomViewController {
+class PrimiumVC: UIViewController {
+  
+ 
+    let cardList: [CardList] = [
+        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: 100),
+        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: 100),
+        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: 100)
+    ]
+ 
+
     
+
+
     var beforeClickedBtnTag: Int = 0
 
 
@@ -21,6 +32,7 @@ class ViewController: CustomViewController {
  
     @IBOutlet weak var downbut: UIButton!
     
+    @IBOutlet weak var myTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,20 +44,32 @@ class ViewController: CustomViewController {
      
     fileprivate func setupUI() {
         btnTagSet()
-      
+        myTableView.dataSource = self
+        myTableView.delegate = self
             
             }
 
+    
         
   
     // 돌아갈 화면에 코드 만들어놓기
-    @IBAction func backToSecondVC(unwindSegue: UIStoryboardSegue) {
-            
-        }
+
 
     @objc func downButClicked(_ sender: UIButton) {
         self.performSegue(withIdentifier: "NavToToggleVC", sender: self)
     }
+    
+    
+    // 버튼 태그 부여해주기
+    func btnTagSet() {
+        let buttnArray: [UIButton] = [allBtn, premiumBtn, blackBtn, mBtn, xBtn]
+        
+        buttnArray.enumerated().forEach {
+            // 각각의 요소를 빼서 각각 태그값을 더해서 태그값 할당해주기
+            number, btn in btn.tag = number + 1
+        }
+    }
+
     
 
     @IBAction func btnClicked(_ sender: UIButton) {
@@ -75,18 +99,29 @@ class ViewController: CustomViewController {
 }
 
 
-// MARK: - UI 관련
+// MARK: - 데이터 소스
+extension PrimiumVC: UITableViewDataSource  {
+    
+    // 필요한 셀 수
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cardList.count
+    }
+    
+    // 각 셀을 구성하고 반환하는 메서드
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = myTableView.dequeueReusableCell(withIdentifier: C.reuseablecell, for: indexPath)
+        cell.textLabel?.text = cardList[indexPath.row].cardName
+        return cell
+    }
+    
+    
+}
 
-extension ViewController {
+extension PrimiumVC: UITableViewDelegate {
     
     
-    func btnTagSet() {
-        let buttnArray: [UIButton] = [allBtn, premiumBtn, blackBtn, mBtn, xBtn]
-        
-        buttnArray.enumerated().forEach {
-            // 각각의 요소를 빼서 각각 태그값을 더해서 태그값 할당해주기
-            number, btn in btn.tag = number + 1
-        }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
     }
     
 }

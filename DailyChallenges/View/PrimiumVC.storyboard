@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--카드 신청-->
+        <scene sceneID="p8s-4n-2ZF">
+            <objects>
+                <viewController restorationIdentifier="PrimiumVC" storyboardIdentifier="PrimiumVC" id="kQu-me-Udb" customClass="PrimiumVC" customModule="DailyChallenges" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WHr-tE-nI7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="yO0-Wi-xad">
+                                <rect key="frame" x="20" y="59" width="353" height="32"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="utU-Oq-ZQ3">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="32"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UK0-wx-3FI">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="32"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="전체">
+                                                    <color key="titleColor" systemColor="systemGrayColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnClicked:" destination="kQu-me-Udb" eventType="touchUpInside" id="Omb-dv-KpY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6B-to-bjh">
+                                                <rect key="frame" x="43.000000000000007" y="0.0" width="80.666666666666686" height="32"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Premium">
+                                                    <color key="titleColor" systemColor="systemGrayColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnClicked:" destination="kQu-me-Udb" eventType="touchUpInside" id="TE4-wu-yqt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kT2-Qy-hx6">
+                                                <rect key="frame" x="129.66666666666666" y="0.0" width="94" height="32"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="MX BLACK">
+                                                    <color key="titleColor" systemColor="systemGrayColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnClicked:" destination="kQu-me-Udb" eventType="touchUpInside" id="8Nr-dK-fJs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJG-WY-RK2">
+                                                <rect key="frame" x="229.66666666666666" y="0.0" width="36.999999999999972" height="32"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="M">
+                                                    <color key="titleColor" systemColor="systemGrayColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnClicked:" destination="kQu-me-Udb" eventType="touchUpInside" id="Ggd-5o-BCY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFQ-z4-QwV">
+                                                <rect key="frame" x="272.66666666666669" y="0.0" width="37" height="32"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="X">
+                                                    <color key="titleColor" systemColor="systemGrayColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnClicked:" destination="kQu-me-Udb" eventType="touchUpInside" id="zmk-5z-1uW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6U-Ae-ifj">
+                                                <rect key="frame" x="315.66666666666669" y="0.0" width="37.333333333333314" height="32"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                <color key="tintColor" systemColor="systemGrayColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" systemColor="systemGrayColor"/>
+                                                    <color key="titleShadowColor" systemColor="systemGrayColor"/>
+                                                    <imageReference key="image" image="chevron.compact.down" catalog="system" symbolScale="large"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClipsToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CIt-P0-h4X">
+                                <rect key="frame" x="20" y="115" width="133" height="123"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="현대 카드의 오리지널리티를 담은 진정한 현대카드" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkg-K8-enJ">
+                                <rect key="frame" x="20" y="246.00000000000003" width="363" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premium" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGt-za-XCt">
+                                <rect key="frame" x="20" y="296.33333333333331" width="363" height="31.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bbH-MO-XFu">
+                                <rect key="frame" x="0.0" y="352" width="393" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="reuseableCell" rowHeight="149" id="kYD-jO-YWj">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kYD-jO-YWj" id="8wX-bq-7aj">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="149"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jTO-pN-vaS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yO0-Wi-xad" firstAttribute="centerX" secondItem="jTO-pN-vaS" secondAttribute="centerX" id="1bt-9E-eoH"/>
+                            <constraint firstItem="jTO-pN-vaS" firstAttribute="trailing" secondItem="utU-Oq-ZQ3" secondAttribute="trailing" constant="20" id="3Py-be-uma"/>
+                            <constraint firstItem="yO0-Wi-xad" firstAttribute="top" secondItem="jTO-pN-vaS" secondAttribute="top" id="4Je-aC-hib"/>
+                            <constraint firstItem="utU-Oq-ZQ3" firstAttribute="top" secondItem="jTO-pN-vaS" secondAttribute="top" id="CXf-G1-PjY"/>
+                            <constraint firstItem="CIt-P0-h4X" firstAttribute="top" secondItem="UK0-wx-3FI" secondAttribute="bottom" constant="24" id="G3u-mv-eac"/>
+                            <constraint firstItem="lkg-K8-enJ" firstAttribute="leading" secondItem="CIt-P0-h4X" secondAttribute="leading" id="RR7-st-js8"/>
+                            <constraint firstItem="CIt-P0-h4X" firstAttribute="leading" secondItem="UK0-wx-3FI" secondAttribute="leading" id="Swj-dk-j2A"/>
+                            <constraint firstItem="yGt-za-XCt" firstAttribute="leading" secondItem="lkg-K8-enJ" secondAttribute="leading" id="VYX-Tc-jWo"/>
+                            <constraint firstItem="jTO-pN-vaS" firstAttribute="trailing" secondItem="CIt-P0-h4X" secondAttribute="trailing" constant="240" id="WEb-VA-YUO"/>
+                            <constraint firstItem="utU-Oq-ZQ3" firstAttribute="leading" secondItem="jTO-pN-vaS" secondAttribute="leading" constant="20" id="XwI-sR-Zcq"/>
+                            <constraint firstItem="jTO-pN-vaS" firstAttribute="trailing" secondItem="yGt-za-XCt" secondAttribute="trailing" constant="10" id="YaI-1f-djx"/>
+                            <constraint firstItem="yGt-za-XCt" firstAttribute="top" secondItem="lkg-K8-enJ" secondAttribute="bottom" constant="30" id="bah-2P-jKt"/>
+                            <constraint firstItem="utU-Oq-ZQ3" firstAttribute="centerX" secondItem="jTO-pN-vaS" secondAttribute="centerX" id="cap-vm-yWt"/>
+                            <constraint firstItem="lkg-K8-enJ" firstAttribute="top" secondItem="CIt-P0-h4X" secondAttribute="bottom" constant="8" symbolic="YES" id="vZb-NO-YWs"/>
+                            <constraint firstItem="jTO-pN-vaS" firstAttribute="bottom" secondItem="CIt-P0-h4X" secondAttribute="bottom" constant="580" id="yXA-rX-q7L"/>
+                            <constraint firstItem="jTO-pN-vaS" firstAttribute="trailing" secondItem="lkg-K8-enJ" secondAttribute="trailing" constant="10" id="zRD-1q-Afm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="카드 신청" id="yzE-wm-18Q">
+                        <barButtonItem key="leftBarButtonItem" image="chevron.backward" catalog="system" id="gB3-F1-P4G">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="allBtn" destination="UK0-wx-3FI" id="fdP-12-RfO"/>
+                        <outlet property="blackBtn" destination="kT2-Qy-hx6" id="q1v-oh-UXv"/>
+                        <outlet property="downbut" destination="l6U-Ae-ifj" id="re2-uS-TrN"/>
+                        <outlet property="mBtn" destination="kJG-WY-RK2" id="iUb-j2-mZs"/>
+                        <outlet property="myTableView" destination="bbH-MO-XFu" id="8gh-Q2-1a0"/>
+                        <outlet property="premiumBtn" destination="Q6B-to-bjh" id="jFL-X6-8bs"/>
+                        <outlet property="xBtn" destination="NFQ-z4-QwV" id="Mqy-qM-m0S"/>
+                        <segue destination="bnT-a9-VyN" kind="unwind" unwindAction="backToSecondVCWithUnwindSegue:" id="HV2-As-lXN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SfV-9b-ial" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="bnT-a9-VyN" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="249.61832061068702" y="-56.338028169014088"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <image name="chevron.compact.down" catalog="system" width="128" height="42"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

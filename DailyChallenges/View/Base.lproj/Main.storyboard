@@ -310,6 +310,7 @@ Edition3</string>
                         <outlet property="xBtn" destination="hJD-lf-1jl" id="IHb-C1-EhE"/>
                         <segue destination="HGj-ry-kRv" kind="unwind" unwindAction="backToSecondVCWithUnwindSegue:" id="os3-aq-fMe"/>
                         <segue destination="HpH-Q0-M0w" kind="push" identifier="NavToToggleVC" id="5ET-1y-bnA"/>
+                        <segue destination="vH2-6e-DMr" kind="push" identifier="NavToPrimiumVC" id="BBe-k8-dAC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1lt-8U-jUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -326,6 +327,16 @@ Edition3</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRa-m9-1Wm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="778" y="-268"/>
+        </scene>
+        <!--PrimiumVC-->
+        <scene sceneID="LLc-wZ-FYs">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="PrimiumVC" storyboardName="PrimiumVC" referencedIdentifier="PrimiumVC" id="vH2-6e-DMr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0sX-uf-J0t"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hOa-Vf-3m9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973" y="-175"/>
         </scene>
     </scenes>
     <resources>

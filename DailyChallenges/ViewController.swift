@@ -32,6 +32,7 @@ class ViewController: CustomViewController {
         btnTagSet()
     }
 
+
     @IBAction func btnClicked(_ sender: UIButton) {
         print("Clicked button tag: \(sender.tag)")
         
@@ -41,7 +42,7 @@ class ViewController: CustomViewController {
             
             if let beforeBtn =  view.viewWithTag(beforeClickedBtnTag) as? UIButton {
                 beforeBtn.backgroundColor = .systemGray5
-                beforeBtn.setTitleColor(.systemGray6, for: .normal)
+                beforeBtn.setTitleColor(.systemGray, for: .normal)
                 
                
             }

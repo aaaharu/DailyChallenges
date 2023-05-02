@@ -14,6 +14,8 @@
 		D3BCF0AA2A012615001A73EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BCF0A92A012615001A73EE /* Assets.xcassets */; };
 		D3BCF0AD2A012616001A73EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BCF0AB2A012616001A73EE /* LaunchScreen.storyboard */; };
 		D3BCF0B52A0129E3001A73EE /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCF0B42A0129E3001A73EE /* CustomViewController.swift */; };
+		D3BCF0B72A014288001A73EE /* ToggleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BCF0B62A014288001A73EE /* ToggleViewController.storyboard */; };
+		D3BCF0BB2A01445B001A73EE /* ToggleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCF0BA2A01445B001A73EE /* ToggleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D3BCF0AC2A012616001A73EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3BCF0AE2A012616001A73EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BCF0B42A0129E3001A73EE /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		D3BCF0B62A014288001A73EE /* ToggleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToggleViewController.storyboard; sourceTree = "<group>"; };
+		D3BCF0BA2A01445B001A73EE /* ToggleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToggleViewController.swift; path = ../ToggleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,6 @@
 		D3BCF0942A012614001A73EE = {
 			isa = PBXGroup;
 			children = (
-				D3BCF0B42A0129E3001A73EE /* CustomViewController.swift */,
 				D3BCF09F2A012615001A73EE /* DailyChallenges */,
 				D3BCF09E2A012615001A73EE /* Products */,
 			);
@@ -61,7 +64,10 @@
 			children = (
 				D3BCF0A02A012615001A73EE /* AppDelegate.swift */,
 				D3BCF0A22A012615001A73EE /* SceneDelegate.swift */,
+				D3BCF0B42A0129E3001A73EE /* CustomViewController.swift */,
 				D3BCF0A42A012615001A73EE /* ViewController.swift */,
+				D3BCF0B62A014288001A73EE /* ToggleViewController.storyboard */,
+				D3BCF0BA2A01445B001A73EE /* ToggleViewController.swift */,
 				D3BCF0A62A012615001A73EE /* Main.storyboard */,
 				D3BCF0A92A012615001A73EE /* Assets.xcassets */,
 				D3BCF0AB2A012616001A73EE /* LaunchScreen.storyboard */,
@@ -131,6 +137,7 @@
 				D3BCF0AD2A012616001A73EE /* LaunchScreen.storyboard in Resources */,
 				D3BCF0AA2A012615001A73EE /* Assets.xcassets in Resources */,
 				D3BCF0A82A012615001A73EE /* Main.storyboard in Resources */,
+				D3BCF0B72A014288001A73EE /* ToggleViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BCF0A52A012615001A73EE /* ViewController.swift in Sources */,
+				D3BCF0BB2A01445B001A73EE /* ToggleViewController.swift in Sources */,
 				D3BCF0A12A012615001A73EE /* AppDelegate.swift in Sources */,
 				D3BCF0A32A012615001A73EE /* SceneDelegate.swift in Sources */,
 				D3BCF0B52A0129E3001A73EE /* CustomViewController.swift in Sources */,

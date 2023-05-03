@@ -9,4 +9,5 @@ import Foundation
 
 struct C{
    static let reuseablecell: String = "reuseableCell"
+    static let nibName: String = "CardListCell"
 }

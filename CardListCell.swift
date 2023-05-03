@@ -2,7 +2,7 @@
 //  CardListCell.swift
 //  DailyChallenges
 //
-//  Created by 김은지 on 2023/05/02.
+//  Created by 김은지 on 2023/05/03.
 //
 
 import UIKit
@@ -19,5 +19,5 @@ class CardListCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }

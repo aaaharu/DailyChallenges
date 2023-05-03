@@ -39,6 +39,7 @@ class PrimiumVC: UIViewController {
         
         setupUI()
         downbut.addTarget(self, action: #selector(downButClicked(_:)), for: .touchUpInside)
+        myTableView.register(UINib(nibName: C.nibName, bundle: nil), forCellReuseIdentifier: C.reuseablecell)
  
     }
      
@@ -109,9 +110,10 @@ extension PrimiumVC: UITableViewDataSource  {
     
     // 각 셀을 구성하고 반환하는 메서드
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = myTableView.dequeueReusableCell(withIdentifier: C.reuseablecell, for: indexPath)
-        cell.textLabel?.text = cardList[indexPath.row].cardName
-        return cell
+       let cell = myTableView.dequeueReusableCell(withIdentifier: C.reuseablecell, for: indexPath)  as! CardListCell 
+            cell.label.text = cardList[indexPath.row].cardName
+        
+            return cell
     }
     
     

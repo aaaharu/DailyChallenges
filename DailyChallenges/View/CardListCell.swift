@@ -11,6 +11,9 @@ class CardListCell: UITableViewCell {
     @IBOutlet weak var view: UIView!
     @IBOutlet weak var label: UILabel!
     
+    @IBOutlet weak var cardSecondName: UILabel!
+    @IBOutlet weak var cardDesCription: UILabel!
+    @IBOutlet weak var yearPay: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

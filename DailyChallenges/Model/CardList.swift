@@ -11,5 +11,5 @@ struct CardList {
     let cardName: String
     let cardSecondName: String
     let cardDescription: String
-    let yearPay: Int
+    let yearPay: String
 }

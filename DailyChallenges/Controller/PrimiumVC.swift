@@ -11,9 +11,9 @@ class PrimiumVC: UIViewController {
   
  
     let cardList: [CardList] = [
-        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: 100),
-        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: 100),
-        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: 100)
+        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: "연회비 100,000"),
+        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: "연회비 100,000"),
+        CardList(cardName: "현대카드", cardSecondName: "좋은 카드", cardDescription: "첫 가입 기념", yearPay: "연회비 100,000")
     ]
  
 
@@ -112,6 +112,9 @@ extension PrimiumVC: UITableViewDataSource  {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        let cell = myTableView.dequeueReusableCell(withIdentifier: C.reuseablecell, for: indexPath)  as! CardListCell 
             cell.label.text = cardList[indexPath.row].cardName
+        cell.cardSecondName.text = cardList[indexPath.row].cardSecondName
+        cell.cardDesCription.text = cardList[indexPath.row].cardDescription
+        cell.yearPay.text = cardList[indexPath.row].yearPay
         
             return cell
     }

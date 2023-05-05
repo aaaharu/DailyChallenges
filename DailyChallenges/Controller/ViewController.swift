@@ -98,11 +98,12 @@ class ViewController: CustomViewController {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        // 테이블뷰에 올라갈 정보의 수
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        // 테이블뷰셀에 표시될 셀
+        
     }
     
     

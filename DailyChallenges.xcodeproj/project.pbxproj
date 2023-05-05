@@ -12,6 +12,7 @@
 		D3166AD62A01510C00027AB4 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3166AD52A01510C00027AB4 /* CardList.swift */; };
 		D3166AD82A01543600027AB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3166AD72A01543600027AB4 /* Constants.swift */; };
 		D33E9F9C2A05375A0083F88A /* WebLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33E9F9B2A05375A0083F88A /* WebLinkViewController.swift */; };
+		D3489DC92A05393B00094FE7 /* WebLinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3489DC82A05393B00094FE7 /* WebLinkViewController.xib */; };
 		D385520D2A0289B9002113D9 /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D385520B2A0289B9002113D9 /* CardListCell.swift */; };
 		D385520E2A0289B9002113D9 /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D385520C2A0289B9002113D9 /* CardListCell.xib */; };
 		D3BCF0A12A012615001A73EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCF0A02A012615001A73EE /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 		D3166AD52A01510C00027AB4 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		D3166AD72A01543600027AB4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D33E9F9B2A05375A0083F88A /* WebLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLinkViewController.swift; sourceTree = "<group>"; };
+		D3489DC82A05393B00094FE7 /* WebLinkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebLinkViewController.xib; sourceTree = "<group>"; };
 		D385520B2A0289B9002113D9 /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
 		D385520C2A0289B9002113D9 /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CardListCell.xib; path = ../CardListCell.xib; sourceTree = "<group>"; };
 		D3BCF09D2A012615001A73EE /* DailyChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,10 +91,18 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		D3BCF0942A012614001A73EE = {
+		D3489DC72A05391100094FE7 /* Mission */ = {
 			isa = PBXGroup;
 			children = (
 				D33E9F9B2A05375A0083F88A /* WebLinkViewController.swift */,
+				D3489DC82A05393B00094FE7 /* WebLinkViewController.xib */,
+			);
+			path = Mission;
+			sourceTree = "<group>";
+		};
+		D3BCF0942A012614001A73EE = {
+			isa = PBXGroup;
+			children = (
 				D3BCF09F2A012615001A73EE /* DailyChallenges */,
 				D3BCF09E2A012615001A73EE /* Products */,
 			);
@@ -114,6 +124,7 @@
 				D33DDC812A015B1C006E5D4F /* Model */,
 				D3166ADD2A015ABB00027AB4 /* View */,
 				D33DDC802A015AF4006E5D4F /* Controller */,
+				D3489DC72A05391100094FE7 /* Mission */,
 				D3BCF0A92A012615001A73EE /* Assets.xcassets */,
 				D3BCF0AB2A012616001A73EE /* LaunchScreen.storyboard */,
 				D3BCF0AE2A012616001A73EE /* Info.plist */,
@@ -184,6 +195,7 @@
 				D3166AD42A014A1700027AB4 /* PrimiumVC.storyboard in Resources */,
 				D385520E2A0289B9002113D9 /* CardListCell.xib in Resources */,
 				D3BCF0A82A012615001A73EE /* Main.storyboard in Resources */,
+				D3489DC92A05393B00094FE7 /* WebLinkViewController.xib in Resources */,
 				D3BCF0B72A014288001A73EE /* ToggleViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

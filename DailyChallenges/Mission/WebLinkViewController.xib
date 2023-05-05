@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="93" id="n6H-PQ-LxX">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="93"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n6H-PQ-LxX" id="HAO-jv-BI7">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rG-yd-FTX">
+                        <rect key="frame" x="20" y="12" width="334" height="69"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aI2-Yd-Mm0">
+                                <rect key="frame" x="10" y="10" width="314" height="49"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="aI2-Yd-Mm0" firstAttribute="leading" secondItem="3rG-yd-FTX" secondAttribute="leading" constant="10" id="9NM-bC-srQ"/>
+                            <constraint firstAttribute="trailing" secondItem="aI2-Yd-Mm0" secondAttribute="trailing" constant="10" id="Bed-Bg-HFv"/>
+                            <constraint firstAttribute="bottom" secondItem="aI2-Yd-Mm0" secondAttribute="bottom" constant="10" id="ZQE-IU-Gmn"/>
+                            <constraint firstItem="aI2-Yd-Mm0" firstAttribute="top" secondItem="3rG-yd-FTX" secondAttribute="top" constant="10" id="drd-Wa-6T4"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJj-Yv-Gzx">
+                        <rect key="frame" x="362" y="13" width="75" height="68"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3rG-yd-FTX" firstAttribute="top" secondItem="HAO-jv-BI7" secondAttribute="top" constant="12" id="01Z-AT-O49"/>
+                    <constraint firstAttribute="bottom" secondItem="3rG-yd-FTX" secondAttribute="bottom" constant="12" id="2jh-eS-veX"/>
+                    <constraint firstItem="3rG-yd-FTX" firstAttribute="leading" secondItem="HAO-jv-BI7" secondAttribute="leading" constant="20" symbolic="YES" id="iJB-b3-wiZ"/>
+                    <constraint firstAttribute="trailing" secondItem="3rG-yd-FTX" secondAttribute="trailing" constant="98" id="m1o-QO-E4K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="152.67175572519082" y="-105.98591549295776"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

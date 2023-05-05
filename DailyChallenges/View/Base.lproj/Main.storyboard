@@ -357,14 +357,28 @@ Edition3</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8HL-uE-HQE">
-                                <rect key="frame" x="0.0" y="154" width="393" height="500"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8HL-uE-HQE">
+                                <rect key="frame" x="25" y="154" width="343" height="664"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="연결된 웹사이트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRc-FO-hjf">
+                                <rect key="frame" x="25" y="103" width="127" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bb6-Li-q24"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VRc-FO-hjf" firstAttribute="top" secondItem="bb6-Li-q24" secondAttribute="top" id="2BN-8L-FSb"/>
+                            <constraint firstItem="8HL-uE-HQE" firstAttribute="leading" secondItem="VRc-FO-hjf" secondAttribute="leading" id="GkP-Rh-77M"/>
+                            <constraint firstItem="bb6-Li-q24" firstAttribute="trailing" secondItem="VRc-FO-hjf" secondAttribute="trailing" constant="241" id="PeB-Dd-a0e"/>
+                            <constraint firstItem="8HL-uE-HQE" firstAttribute="top" secondItem="VRc-FO-hjf" secondAttribute="bottom" constant="27" id="T2J-83-WNP"/>
+                            <constraint firstItem="VRc-FO-hjf" firstAttribute="leading" secondItem="bb6-Li-q24" secondAttribute="leading" constant="25" id="VlA-Qx-JMN"/>
+                            <constraint firstItem="bb6-Li-q24" firstAttribute="bottom" secondItem="8HL-uE-HQE" secondAttribute="bottom" id="YUE-LW-SgW"/>
+                            <constraint firstItem="bb6-Li-q24" firstAttribute="trailing" secondItem="8HL-uE-HQE" secondAttribute="trailing" constant="25" id="aI7-f7-xlZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="MNj-Xf-w6X"/>
                     <connections>

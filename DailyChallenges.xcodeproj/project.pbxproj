@@ -11,6 +11,7 @@
 		D3166AD42A014A1700027AB4 /* PrimiumVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3166AD32A014A1700027AB4 /* PrimiumVC.storyboard */; };
 		D3166AD62A01510C00027AB4 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3166AD52A01510C00027AB4 /* CardList.swift */; };
 		D3166AD82A01543600027AB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3166AD72A01543600027AB4 /* Constants.swift */; };
+		D33E9F9C2A05375A0083F88A /* WebLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33E9F9B2A05375A0083F88A /* WebLinkViewController.swift */; };
 		D385520D2A0289B9002113D9 /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D385520B2A0289B9002113D9 /* CardListCell.swift */; };
 		D385520E2A0289B9002113D9 /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D385520C2A0289B9002113D9 /* CardListCell.xib */; };
 		D3BCF0A12A012615001A73EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCF0A02A012615001A73EE /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 		D3166AD32A014A1700027AB4 /* PrimiumVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrimiumVC.storyboard; sourceTree = "<group>"; };
 		D3166AD52A01510C00027AB4 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		D3166AD72A01543600027AB4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D33E9F9B2A05375A0083F88A /* WebLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLinkViewController.swift; sourceTree = "<group>"; };
 		D385520B2A0289B9002113D9 /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
 		D385520C2A0289B9002113D9 /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CardListCell.xib; path = ../CardListCell.xib; sourceTree = "<group>"; };
 		D3BCF09D2A012615001A73EE /* DailyChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +92,7 @@
 		D3BCF0942A012614001A73EE = {
 			isa = PBXGroup;
 			children = (
+				D33E9F9B2A05375A0083F88A /* WebLinkViewController.swift */,
 				D3BCF09F2A012615001A73EE /* DailyChallenges */,
 				D3BCF09E2A012615001A73EE /* Products */,
 			);
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BCF0A52A012615001A73EE /* ViewController.swift in Sources */,
+				D33E9F9C2A05375A0083F88A /* WebLinkViewController.swift in Sources */,
 				D3BCF0BB2A01445B001A73EE /* ToggleViewController.swift in Sources */,
 				D3166ACC2A0149EE00027AB4 /* PrimiumVC.swift in Sources */,
 				D3BCF0A12A012615001A73EE /* AppDelegate.swift in Sources */,

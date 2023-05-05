@@ -18,12 +18,15 @@ class ViewController: CustomViewController {
     @IBOutlet weak var mBtn: UIButton!
     @IBOutlet weak var xBtn: UIButton!
     
- 
+    @IBOutlet weak var myTableView: UITableView!
+    
     @IBOutlet weak var downbut: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        myTableView.dataSource = self
         
         setupUI()
         downbut.addTarget(self, action: #selector(downButClicked(_:)), for: .touchUpInside)
@@ -91,9 +94,17 @@ class ViewController: CustomViewController {
 }
 
 
-// MARK: - UI 관련
+// MARK: - TableView DataSource
 
-extension ViewController {
+extension ViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
     
    
     

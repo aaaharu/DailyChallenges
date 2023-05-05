@@ -9,10 +9,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="93" id="n6H-PQ-LxX">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WebLinkTableViewCell" rowHeight="93" id="n6H-PQ-LxX" customClass="WebLinkTableViewCell" customModule="DailyChallenges" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="424" height="93"/>
             <autoresizingMask key="autoresizingMask"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n6H-PQ-LxX" id="HAO-jv-BI7">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n6H-PQ-LxX" id="HAO-jv-BI7" customClass="WebLinkTableViewCell" customModule="DailyChallenges" customModuleProvider="target">
                 <rect key="frame" x="0.0" y="0.0" width="424" height="93"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -55,6 +55,10 @@
                     <constraint firstItem="oJj-Yv-Gzx" firstAttribute="top" secondItem="aI2-Yd-Mm0" secondAttribute="top" id="zjM-We-N7y"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="deleteButton" destination="oJj-Yv-Gzx" id="8RA-q1-5mP"/>
+                <outlet property="webTextFiled" destination="aI2-Yd-Mm0" id="cBo-X6-MZR"/>
+            </connections>
             <point key="canvasLocation" x="131.29770992366412" y="-105.98591549295776"/>
         </tableViewCell>
     </objects>
